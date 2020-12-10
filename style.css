@@ -70,21 +70,43 @@ li{
 
  .wrapper {
   display: grid;
-  min-height: 500px;
-  width: 100%;
-  grid-template-columns: repeat(2,50%);
-  grid-gap: 10px;
-  background-color: black;
-  grid-template-rows: 50%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+
 }
 
- .evenement img{ 
+ .wrapper img{ 
   width: 100%;
+  height: auto;
+}
+
+.listing{
+  position: relative;
+}
+
+figcaption{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  top:0;
+  left: 0;
   height: 100%;
+  width: 100%;
+  
+   
+  /* position the text centrally*/
+
 }
 
 button {
-  display: block;
+  position: relative;
+  right: -40%;
 	box-shadow:inset 0px 1px 3px 0px #ffffff;
 	background:linear-gradient(to bottom, #fffae1 5%, #fffae1 100%);
 	background-color:#fffae1;
@@ -97,9 +119,9 @@ button {
 	font-weight:bold;
 	font-style:italic;
   padding:11px 23px;
-  margin-top: 10px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #4f5e5c;
+  text-shadow:0px -1px 0px #4f5e5c;
+  
 }
 button:hover {
 	background:linear-gradient(to bottom, #fffae1 5%, #fffae1 100%);
