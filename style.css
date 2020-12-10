@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-size: 14px;
   margin: 0 2%;
+  background-color: white;
 }
 
 h1{
@@ -58,16 +59,18 @@ ul{
 }
 
 li{
-
   list-style: none;
   padding:0 5%;
  }
 
  /* *****************EVENEMENT******************* */
  h2{
-   text-align: center;
+   font-size: 2em;
  }
-
+ .evenement{
+   text-align: center;
+   font-size: 18px;
+ }
  .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -98,15 +101,11 @@ figcaption{
   left: 0;
   height: 100%;
   width: 100%;
-  
-   
-  /* position the text centrally*/
-
 }
 
 button {
   position: relative;
-  right: -40%;
+  /* right: -40%; */
 	box-shadow:inset 0px 1px 3px 0px #ffffff;
 	background:linear-gradient(to bottom, #fffae1 5%, #fffae1 100%);
 	background-color:#fffae1;
@@ -130,4 +129,30 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+/* *************************FOOTER******************* */
+footer{
+  background-color: #FFFAE1;
+  background-size: cover;
+}
+
+h6{
+  font-size: 2em;
+  margin:15px 0 0 0;
+}
+.footer ul{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.footer li{
+  font-family: 'Dancing Script',sans-serif;
+  display: inline-block;
+  align-self: start;
+}
+
+.footer li:hover{
+  text-decoration: underline;
 }
