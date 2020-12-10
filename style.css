@@ -156,3 +156,23 @@ h6{
 .footer li:hover{
   text-decoration: underline;
 }
+/* ************************* Second Page**************** */
+.article img{ 
+  width: 50%;
+  height: auto;
+  border: none;
+}
+
+.article p{
+  display: inline-block;
+  top: 0;
+  
+ 
+}
+
+
+.bloc{
+  background: #d7eeff; /*si on veut une couleur de fond*/
+  margin-bottom: 10px; /*espace entre les blocs*/
+  width: 350px; /*largeur du bloc image + texte*/
+  }
