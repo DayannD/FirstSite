@@ -158,18 +158,23 @@ h6{
 }
 /* ************************* Second Page**************** */
 .article img{ 
-  width: 50%;
+  width: 100%;
   height: auto;
   border: none;
 }
 
-.article p{
-  display: inline-block;
-  top: 0;
-  
- 
+/* .article div{
+  display: flex;
+} */
+
+.article a{
+  width: 50%;
+  height: 50%;
 }
 
+ .article__figure-img{
+  margin: 0;
+}
 
 .bloc{
   background: #d7eeff; /*si on veut une couleur de fond*/
