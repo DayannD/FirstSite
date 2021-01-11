@@ -219,14 +219,16 @@ h6{
       max-height: 300px;
       margin: 0 10px;
     }
-    .article__figure-img{
 
-    }
     .article {
       display: flex; 
     }  
 
     .detail_article{
       margin: 2px;
+    }
+    .article__figure-img img{
+      max-height: 300px;
+      max-height: 300px;
     }
   }
